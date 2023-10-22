@@ -34,6 +34,6 @@ func main() {
 		describe() string
 	}
 
-	var d describer = co
+	var d describer = co.base
 	fmt.Println("describer:", d.describe())
 }
